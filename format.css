@@ -1,3 +1,13 @@
+/*elements*/
+a:link, a:visited {
+	text-decoration: none;
+	color: Black;
+}
+a:hover{
+	text-decoration: none;
+	color: Blue;
+}
+
 /*id names and properties*/
 #scrfill {
 	overflow: auto;
@@ -7,17 +17,28 @@
 	bottom: 0;
 	left: 0;
 }
+#profile {
+	display: block;
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	margin-left: auto;
+  /*margin-right: auto;*/
+}
 
 /*class names and properties*/
 .info {
 	font-weight: bold;
+	margin-right: auto;
+	font-family: sans-serif;
 }
 
 .ld {
 	font-size: 24pt;
-	border: medium solid blue;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	background-color: rgba(169,169,169,0.55);
+	font-family: sans-serif;
 }
 
 .icon {
@@ -44,14 +65,4 @@
 	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-/*elements*/
-a:link {
-	text-decoration: none;
-	color: blue;
-}
-a:visited {
-	text-decoration: none;
-	color: blue;
 }

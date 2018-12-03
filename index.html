@@ -6,106 +6,67 @@
         <style>
             @media only screen and (max-width: 1024px) {
                 /* small devices */
-                background-attachment: scroll;
+                .scroll-back{
+                    background-attachment: scroll;
+                }
             }
         </style>
         <title>I'm Michael Yang</title>
     </head>
     <body>
-        <div class = "scroll-back" style = "background-image: url(backgrounds/IMG_0021.jpg);">
+        <div class = "scroll-back" style = "background-image: url(backgrounds/profile.jpg);">
             <div class = "caption">
 
                 <!-- Greeting -->
                 <div class = "centerblock">
-                    <h4>
-                        <p style="font-size: 130%">
-                            <em>Hi, I'm</em>
-                        </p>
-                    </h4>
 
-                    <h1>
-                        <p class = "name">
-                            <strong>Michael Yang</strong>
-                        </p>
-                    </h1>
+                    <p style="text-align: bottom;">
+                        <em>Hi, I'm</em>
+                    </p>
+                    <p class = "name" style = "font-size: 150%;">
+                        <strong>Michael Yang</strong>
+                    </p>
+
                 </div>
 
             </div>
         </div>
 
         <div class = "textblock">
-            <div class="textblock-content">
+            <div class = "textblock-title">
+                <hr>
+            </div>
+            <div class="textblock-title">
                 <h3>
-                    Mechanical Engineering and Computer Science Major
+                    Mechanical Engineering and Computer Science Double Major
                 </h3>
             </div>
 
-            <p>
-                Undergraduate courses are being taken at Rutgers University - New Brunswick. 
+            <p class = "textblock-paragraph" style="text-align: justify;">
+                Undergraduate courses for my majors are currently being taken at Rutgers University - New Brunswick.
+                I am currently the acting co-webmaster for the Mechanical Engineering Student Association (MESA) website and the current webmaster for the Rutgers Civic Education website.
+                I have worked as a research assistant for three years in two different labs while at Rutgers.
+                The first two years of research was focused on paper applications in mechanical engineering and the possible use of paper in robotics.
+                This past year's research was focused on mapping using a lidar in conjunction with the Lidar Odometry and Mapping (LOAM) algorithm.
+                In the end, a drone was to be outfitted with the lidar and used to map an area either manually or autonomously.
             </p>
 
-            <div class = "textblock-content">
+            <div class = "textblock-title">
                 <hr>
+            </div>
+
+            <div class = "textblock-title">
                 <h3>
-                    74 kg Raw Powerlifter
+                    Amateur Photographer, Artist, and Video Editor
                 </h3>
             </div>
 
-            <p>Currently being coached by Emily Ho. Current member of the Rutgers Powerlifting and USA Powerlifting.</p>
-            <p>Personal Best:</p>
-            <table class = "textblock-table">
-                <tbody>
-                    <tr>
-                        <td style = "width: 30%">
-                            <p>Squat - 375 lbs / 170.097 kg</p>
-                        </td>
-                        <td style = "width: 3.5%">
-                            <p>|</p>
-                        </td>
-                        <td style = "width: 30%">
-                            <p>Bench - 255 lbs / 115.666 kg</p>
-                        </td>
-                        <td style = "width: 3.5%">
-                            <p>|</p>
-                        </td>
-                        <td style = "width: 30%">
-                            <p>Deadlift - 460 lbs / 208.652 kg</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>Competition Personal Best:</p>
-            <table class = "textblock-table">
-                <tbody>                
-                    <tr>
-                        <td style = "width: 30%">
-                            <p>Squat - 341.7 lbs / 155 kg</p>
-                        </td>
-                        <td style = "width: 3.5%">
-                            <p>|</p>
-                        </td>
-                        <td style = "width: 30%">
-                            <p>Bench - 237 lbs / 107.5 kg</p>
-                        </td>
-                        <td style = "width: 3.5%">
-                            <p>|</p>
-                        </td>
-                        <td style = "width: 30%">
-                            <p>Deadlift - 440.9 lbs / 200 kg</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <div class = "textblock-content">
+            <div class = "textblock-title">
                 <hr>
-                <h3>
-                    Amateur Photographer and Artist
-                </h3>
             </div>
         </div>
 
-        <!---<div class="scroll-back" style="background-image: url(backgrounds/projb.png)">
+        <!---<div class="scroll-back" style="background-image: url(backgrounds/projb.png);">
             <div class = "caption">
                 
                 <div>
@@ -116,20 +77,99 @@
             </div>
         </div>-->
 
-        <div class = "scroll-back" style = "background-image: url(backgrounds/artb.jpg)">
+        <div class = "scroll-back" style = "background-image: url(backgrounds/artb.jpg)";>
             <div class = "caption">
 
-                <div class = "centerblock" style="width:40%;">
-                    <h1>
-                        <p>
-                            <stong>
-                                <a href="VArt.html">Photographs and Artwork</a>
-                            </stong>
-                        </p>
-                    </h1>
+                <div class = "centerblock">
+
+                    <p>
+                        <strong>
+                            <a href="VArt.html">Photographs, Artwork, Videos</a>
+                        </strong>
+                    </p>
+
                 </div>
 
             </div>
+        </div>
+
+        <div style = "padding: 0% 0% 0% 0%;">
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td class = "image-tdata">
+                            <img src = "Lifting/DSC_5718.jpg" class = "image-profile">
+                        </td>
+
+                        <td class = "image-tdata">
+                            <div class = "textblock-title">
+                                <hr>
+                            </div>
+                    
+                            <div class = "textblock-title">
+                                <h3>
+                                     74 kg Raw Powerlifter
+                                </h3>
+                            </div>
+                        
+                            <div class = "textblock-paragraph">
+                                <p>Currently being coached by Emily Ho. Current member of the Rutgers Powerlifting and USA Powerlifting.</p>
+                                <p>Personal Best:</p>
+                                <table class = "textblock-table">
+                                    <tbody>
+                                        <tr>
+                                            <td style = "width: 30%">
+                                                <p>Squat - 375 lbs / 170.097 kg</p>
+                                            </td>
+                                            <td style = "width: 3.5%">
+                                                <p>|</p>
+                                            </td>
+                                            <td style = "width: 30%">
+                                                <p>Bench - 255 lbs / 115.666 kg</p>
+                                            </td>
+                                            <td style = "width: 3.5%">
+                                                <p>|</p>
+                                            </td>
+                                            <td style = "width: 30%">
+                                                <p>Deadlift - 460 lbs / 208.652 kg</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>Competition Personal Best:</p>
+                                <table class = "textblock-table">
+                                    <tbody>                
+                                        <tr>
+                                            <td style = "width: 30%">
+                                                <p>Squat - 341.7 lbs / 155 kg</p>
+                                            </td>
+                                            <td style = "width: 3.5%">
+                                                <p>|</p>
+                                            </td>
+                                            <td style = "width: 30%">
+                                                <p>Bench - 237 lbs / 107.5 kg</p>
+                                            </td>
+                                            <td style = "width: 3.5%">
+                                                <p>|</p>
+                                            </td>
+                                            <td style = "width: 30%">
+                                                <p>Deadlift - 440.9 lbs / 200 kg</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                            <div class = "textblock-title">
+                                <hr>
+                            </div>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
         </div>
     </body>
 </html>

@@ -5,7 +5,7 @@ body, html {
     color: #777;
 }
 
-a :hover{
+a:hover{
     text-decoration: none;
 	color: Blue;
 }
@@ -23,39 +23,16 @@ a:link, a:visited {
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 20%;
-}
-
-.name {
-    text-align: center;
-    vertical-align: middle;
-    font-size: 100%;
+    width: 10%;
 }
 
 .scroll-back {
     position: relative;
-    min-height: 100%;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.textblock{
-    background-color: rbg(255,255,255);
-    padding: 2%;
-    text-align: center;
-}
-
-.textblock-content{
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.textblock-table{
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .caption {
@@ -63,16 +40,47 @@ a:link, a:visited {
     left: 0;
     top: 40%;
     width: 100%;
+    height: 30%;
     text-align: center;
     color: rgb(255, 255, 255);
+    vertical-align: middle;
 }
 
 .centerblock{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 0% auto 0% auto;
     padding: 1.3%;
     background-color: rgba(1,1,1,0.3);
-    width: 25%;
+    width: 40%;
+    height: 100%;
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+.textblock{
+    background-color: rbg(255,255,255);
+    padding: 4%;
+    text-align: center;
+}
+
+.textblock-title {
+    padding: 2% 15% 2% 15%;
+}
+
+.textblock-paragraph{
+    padding: 0% 15% 2% 15%;
+}
+
+.textblock-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-profile{
+    height: 20%;
+    width: 100%;
+}
+
+.image-tdata{
+    width: 50%;
+    height: 100%
 }

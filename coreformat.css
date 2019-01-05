@@ -15,7 +15,7 @@ a:link, a:visited {
 	color: white;
 }
 
-.name ::before, 
+.name ::before,
 .name ::after {
     background-color: white;
     content: "";
@@ -24,6 +24,10 @@ a:link, a:visited {
     position: relative;
     vertical-align: middle;
     width: 10%;
+}
+
+.name{
+  font-size: 150%;
 }
 
 .scroll-back {
@@ -68,19 +72,24 @@ a:link, a:visited {
 
 .textblock-title {
     padding: 2% 15% 2% 15%;
+    font-size: 100%;
 }
 
 .textblock-paragraph{
     padding: 0% 15% 2% 15%;
+    font-size: 100%;
 }
 
 .textblock-table{
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+    height: auto;
 }
 
 .image-profile{
-    height: 20%;
+    display: block;
+    height: 20% ;
     width: 100%;
 }
 

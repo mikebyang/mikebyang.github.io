@@ -4,21 +4,31 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type = "text/css" href = "coreformat.css" media="screen">
         <style>
+            @media only screen and (min-width: 1025px) {
+                .name{
+                  font-size: 3vw;
+                }
+            }
             @media only screen and (max-width: 1024px) {
                 /* small devices */
+                .name{
+                  font-size: 150%;
+                }
                 .scroll-back{
-                    background-attachment: scroll;
+                  background-attachment: scroll;
+                }
+                .image-profile{
+                  width:40vw;
+                  height:70vh;
                 }
             }
             @@media only screen and (max-width: 600px) {
               /* tr {
 
               } */
-              .name{
-                font-size: 60%;
-              }
-              .textblock-title, .textblock-paragraph{
-                font-size: 80px;
+              .image-profile{
+                width: 30vw;
+                height: 35vh;
               }
             }
         </style>
@@ -26,10 +36,10 @@
     </head>
     <body>
         <div class = "scroll-back" style = "background-image: url(backgrounds/profile.jpg);">
-            <div class = "caption">
+            <div class = "caption caption-color">
 
                 <!-- Greeting -->
-                <div class = "centerblock">
+                <div class = "centerblock centerblock-color">
 
                     <p style="text-align: bottom;">
                         <em>Hi, I'm</em>
@@ -89,13 +99,13 @@
         </div>-->
 
         <div class = "scroll-back" style = "background-image: url(backgrounds/artb.jpg)";>
-            <div class = "caption">
+            <div class = "caption caption-color">
 
-                <div class = "centerblock">
+                <div class = "centerblock centerblock-color" style = "width:50%;">
 
                     <p>
                         <strong>
-                            <a href="VArt.html" style = "font-size: 150%;">Photographs, Artwork, Videos</a>
+                            <a href="VArt.html" class = "blockname">Photographs, Artwork, Videos</a>
                         </strong>
                     </p>
 
@@ -124,51 +134,15 @@
                             </div>
 
                             <div class = "textblock-paragraph">
-                                <p>Currently being coached by Emily Ho. Current member of the Rutgers Powerlifting and USA Powerlifting.</p>
+                                <p>Currently being coached by Emily Ho.<br/>Member of the Rutgers Powerlifting and USA Powerlifting.</p>
                                 <p>Personal Best:</p>
-                                <table class = "textblock-table">
-                                    <tbody>
-                                        <tr>
-                                            <td style = "width: 30%">
-                                                <p>Squat - 375 lbs / 170.097 kg</p>
-                                            </td>
-                                            <td style = "width: 3.5%">
-                                                <p>|</p>
-                                            </td>
-                                            <td style = "width: 30%">
-                                                <p>Bench - 255 lbs / 115.666 kg</p>
-                                            </td>
-                                            <td style = "width: 3.5%">
-                                                <p>|</p>
-                                            </td>
-                                            <td style = "width: 30%">
-                                                <p>Deadlift - 460 lbs / 208.652 kg</p>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <p>Squat - 375 lbs / 170.1 kg</p>
+                                <p>Bench - 255 lbs / 115.7 kg</p>
+                                <p>Deadlift - 460 lbs / 208.7 kg</p>
                                 <p>Competition Personal Best:</p>
-                                <table class = "textblock-table">
-                                    <tbody>
-                                        <tr>
-                                            <td style = "width: 30%">
-                                                <p>Squat - 341.7 lbs / 155 kg</p>
-                                            </td>
-                                            <td style = "width: 3.5%">
-                                                <p>|</p>
-                                            </td>
-                                            <td style = "width: 30%">
-                                                <p>Bench - 237 lbs / 107.5 kg</p>
-                                            </td>
-                                            <td style = "width: 3.5%">
-                                                <p>|</p>
-                                            </td>
-                                            <td style = "width: 30%">
-                                                <p>Deadlift - 440.9 lbs / 200 kg</p>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <p>Squat - 341.7 lbs / 155 kg</p>
+                                <p>Bench - 237 lbs / 107.5 kg</p>
+                                <p>Deadlift - 440.9 lbs / 200 kg</p>
                             </div>
 
                             <div class = "textblock-title">

@@ -27,7 +27,11 @@ a:link, a:visited {
 }
 
 .name{
-  font-size: 150%;
+  font-size: 5vw;
+}
+
+.blockname{
+  font-size: 3vw;
 }
 
 .scroll-back {
@@ -46,8 +50,11 @@ a:link, a:visited {
     width: 100%;
     height: 15%;
     text-align: center;
-    color: rgb(255, 255, 255);
     vertical-align: middle;
+}
+
+.caption-color{
+  color: rgb(255, 255, 255);
 }
 
 .centerblock{
@@ -58,10 +65,13 @@ a:link, a:visited {
     padding: 1.3%;
     position: absolute;
     transform: translate(-50%, -50%);
-    background-color: rgba(1,1,1,0.3);
     width: 40%;
     font-size: 100%;
     vertical-align: middle;
+}
+
+.centerblock-color{
+    background-color: rgba(1,1,1,0.3);
 }
 
 .textblock{
@@ -88,12 +98,18 @@ a:link, a:visited {
 }
 
 .image-profile{
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    height: 20% ;
-    width: 100%;
+    width: 40vw;
+    height: 70vh;
 }
 
 .image-tdata{
-    width: 50%;
-    height: 100%
+    width: 50vw;
+    height: 100vh;
+}
+
+.blocktitle{
+  height: 50%;
 }

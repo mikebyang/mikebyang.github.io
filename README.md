@@ -1,3 +1,4 @@
-mikebyang.github.io
 
-Personal Website
+Personal Website made using HTML and CSS
+
+mikebyang.github.io

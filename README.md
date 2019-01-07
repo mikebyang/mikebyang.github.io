@@ -1,3 +1,3 @@
 mikebyang.github.io
 
-Status: INCOMPLETE
+Personal Website

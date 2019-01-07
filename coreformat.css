@@ -60,6 +60,13 @@ a:link, a:visited {
 .centerblock-color{
     background-color: rgba(1,1,1,0.3);
 }
+.social_media{
+  width: 100%;
+}
+.social_media img {
+  width:100px;
+  height:100px;
+}
 .textblock{
     background-color: rbg(255,255,255);
     padding: 4%;

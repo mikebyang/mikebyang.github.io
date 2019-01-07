@@ -4,17 +4,14 @@ body, html {
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
 }
-
 a:hover{
     text-decoration: none;
 	color: Blue;
 }
-
 a:link, a:visited {
 	text-decoration: none;
 	color: white;
 }
-
 .name ::before,
 .name ::after {
     background-color: white;
@@ -25,11 +22,9 @@ a:link, a:visited {
     vertical-align: middle;
     width: 10%;
 }
-
 .name{
   font-size: 5vw;
 }
-
 .scroll-back {
     position: relative;
     height: 100%;
@@ -38,7 +33,6 @@ a:link, a:visited {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .caption {
     position: relative;
     left: 0;
@@ -48,11 +42,9 @@ a:link, a:visited {
     text-align: center;
     vertical-align: middle;
 }
-
 .caption-color{
   color: rgb(255, 255, 255);
 }
-
 .centerblock{
     margin: 0;
     top:50%;
@@ -65,34 +57,28 @@ a:link, a:visited {
     font-size: 100%;
     vertical-align: middle;
 }
-
 .centerblock-color{
     background-color: rgba(1,1,1,0.3);
 }
-
 .textblock{
     background-color: rbg(255,255,255);
     padding: 4%;
     text-align: center;
 }
-
 .textblock-title {
     padding: 2% 15% 2% 15%;
     font-size: 100%;
 }
-
 .textblock-paragraph{
     padding: 0% 15% 2% 15%;
     font-size: 100%;
 }
-
 .textblock-table{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: auto;
 }
-
 .image-profile{
     margin-left: auto;
     margin-right: auto;
@@ -100,7 +86,6 @@ a:link, a:visited {
     width: 40vw;
     height: 70vh;
 }
-
 .image-tdata{
     width: 50vw;
     height: 100vh;

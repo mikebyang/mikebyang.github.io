@@ -1,14 +1,11 @@
 .blocktitle{
   height: 50%;
 }
-
 /* delaware trip 2018 */
-
 .photocontainer{
   position: relative;
   width: 100%;
 }
-
 .photocontainer .psection{
   position: sticky;
   top: 0;
@@ -16,44 +13,35 @@
   height: 100vh;
   background: #000;
 }
-
 .photocontainer .psection:nth-child(1){
-  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/GOPR0605.JPG);
+  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/GOPR0605.jpg);
   background-size: cover;
 }
-
 .photocontainer .psection:nth-child(2){
-  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/GOPR0600.JPG);
+  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/GOPR0600.jpg);
   background-size: cover;
 }
-
 .photocontainer .psection:nth-child(3){
-  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/G0941074.JPG);
+  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/G0941074.jpg);
   background-size: cover;
 }
-
 .photocontainer .psection:nth-child(4){
-  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/G0921061.JPG);
+  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/G0921061.jpg);
   background-size: cover;
 }
-
 .photocontainer .psection:nth-child(5){
-  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/G0881044.JPG);
+  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/G0881044.jpg);
   background-size: cover;
 }
-
 .photocontainer .psection:nth-child(6){
-  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/G0861031.JPG);
+  background-image: url(Arts/Photography/DelawareWaterGapJuly2018/G0861031.jpg);
   background-size: cover;
 }
-
 /* maine trip 2018 */
-
 .photocontainer2{
   position: relative;
   width: 100%;
 }
-
 .photocontainer2 .psection2{
   position: sticky;
   top: 0;
@@ -61,73 +49,59 @@
   height: 100vh;
   background: #000;
 }
-
 .photocontainer2 .psection2:nth-child(1){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0524.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0524.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(2){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0587.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0587.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(3){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0697.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0697.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(4){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0738.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0738.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(5){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0908.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0908.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(6){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0952.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0952.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(7){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0962.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0962.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(8){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0967.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0967.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(9){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0972.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0972.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(10){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_0985.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_0985.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(11){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_1007.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_1007.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(12){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_1036.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_1036.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(13){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_1099.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_1099.jpg);
   background-size: cover;
 }
-
 .photocontainer2 .psection2:nth-child(14){
-  background-image: url(Arts/Photography/Maine2018Trip/DSC_1102.JPG);
+  background-image: url(Arts/Photography/Maine2018Trip/DSC_1102.jpg);
   background-size: cover;
 }

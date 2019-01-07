@@ -1,11 +1,11 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
 }
 a:hover{
-    text-decoration: none;
+  text-decoration: none;
 	color: Blue;
 }
 a:link, a:visited {
@@ -14,86 +14,90 @@ a:link, a:visited {
 }
 .name ::before,
 .name ::after {
-    background-color: white;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 10%;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 10%;
 }
 .name{
   font-size: 5vw;
 }
+.greeting{
+  font-size: 2vw;
+  text-align: bottom;
+}
 .scroll-back {
-    position: relative;
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .caption {
-    position: relative;
-    left: 0;
-    top: 40%;
-    width: 100%;
-    height: 15%;
-    text-align: center;
-    vertical-align: middle;
+  position: relative;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  vertical-align: middle;
 }
 .caption-color{
   color: rgb(255, 255, 255);
 }
 .centerblock{
-    margin: 0;
-    top:50%;
-    left:50%;
-    margin-right: -50%;
-    padding: 1.3%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    font-size: 100%;
-    vertical-align: middle;
+  margin: 0;
+  top:50%;
+  left:50%;
+  margin-right: -50%;
+  padding: 1.3%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  font-size: 100%;
+  vertical-align: middle;
 }
 .centerblock-color{
-    background-color: rgba(1,1,1,0.3);
+  background-color: rgba(1,1,1,0.3);
 }
 .social_media{
   width: 100%;
 }
 .social_media img {
-  width:100px;
-  height:100px;
+  width:50px;
+  height:50px;
 }
 .textblock{
-    background-color: rbg(255,255,255);
-    padding: 4%;
-    text-align: center;
+  background-color: rbg(255,255,255);
+  padding: 4%;
+  text-align: center;
 }
 .textblock-title {
-    padding: 2% 15% 2% 15%;
-    font-size: 100%;
+  padding: 2% 15% 2% 15%;
+  font-size: 100%;
 }
 .textblock-paragraph{
-    padding: 0% 15% 2% 15%;
-    font-size: 100%;
+  padding: 0% 15% 2% 15%;
+  font-size: 100%;
 }
 .textblock-table{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 .image-profile{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 40vw;
-    height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 40vw;
+  height: 70vh;
 }
 .image-tdata{
-    width: 50vw;
-    height: 100vh;
+  width: 50vw;
+  height: 100vh;
 }

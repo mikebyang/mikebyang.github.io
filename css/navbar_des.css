@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-size: 15pt;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    color: rgb(0,203,255);
+}
+a{
+    text-decoration:none;
+}
+a:hover, a:visited{
+    color: rgb(0,203,255);
+}

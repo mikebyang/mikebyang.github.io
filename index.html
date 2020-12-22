@@ -1,129 +1,332 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type = "text/css" href = "coreformat.css" media="screen">
-    <style>
-      @media only screen and (min-width: 1025px) {
-        .name{
-          font-size: 3vw;
-        }
-      }
-      @media only screen and (max-width: 1024px) {
-        .name{
-          font-size: 150%;
-        }
-        .greeting{
-          font-size: 150%;
-        }
-        .scroll-back{
-          background-attachment: scroll;
-        }
-        .image-profile{
-          width:40vw;
-          height:70vh;
-        }
-      }
-      @@media only screen and (max-width: 600px) {
-        .image-profile{
-          width: 30vw;
-          height: 35vh;
-        }
-      }
-    </style>
-    <title>I'm Michael Yang</title>
-  </head>
-  <body>
-    <div class = "scroll-back" style = "background-image: url(backgrounds/profile.jpg);">
-      <div class = "caption caption-color">
-        <!-- Greeting -->
-        <div class = "centerblock centerblock-color">
-          <p class = "greeting">
-            <em>Hi, I'm</em>
-          </p>
-          <p class = "name">
-            <strong>Michael Yang</strong>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class = "textblock">
-      <div class = "textblock-title">
-        <hr>
-      </div>
-
-      <div class="textblock-title">
-        <h3>BSc - Double major in Mechanical Engineering and Computer Science</h3>
-      </div>
-      <div class = "textblock-title">
-        <hr>
-      </div>
-
-      <div class = "social_media">
-        <a href="mailto:michael.yang718@gmail.com">
-          <img src="Icons/EmailLogo.png">
-        </a>
-        <a href="https://www.facebook.com/michael.yang.568847">
-          <img src="Icons/FacebookLogo.png">
-        </a>
-        <a href="https://github.com/mikebyang">
-          <img src="Icons/GithubLogo.png">
-        </a>
-        <a href="https://www.linkedin.com/in/michael-yang718/">
-          <img src="Icons/LinkedInLogo.png">
-        </a>
-        <a href="MichaelYangResume.pdf">
-          <img src="Icons/ResumeLogo.png">
-        </a>
-      </div>
-
-      <div class = "textblock-title">
-        <hr>
-      </div>
-    </div>
-    <div class = "scroll-back" style = "background-image: url(backgrounds/artb.jpg)";>
-      <div class = "caption caption-color">
-        <div class = "centerblock centerblock-color" style = "width:50%;">
-          <p>
-            <strong>
-              <a href="VArt.html" class = "name">Photographs, Artwork, Videos</a>
-            </strong>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div style = "padding: 0% 0% 0% 0%; font-size: 100%">
-      <table>
-        <tbody>
-          <tr>
-            <td class = "image-tdata">
-              <img src = "Lifting/DSC_5718.jpg" class = "image-profile">
-            </td>
-            <td class = "image-tdata">
-              <div class = "textblock-title">
-                <hr>
-              </div>
-              <div class = "textblock-title">
-                <h3>74 kg Raw Powerlifter</h3>
-              </div>
-              <div class = "textblock-paragraph">
-                <p>Currently being coached by Emily Ho.<br/>Member of the Rutgers Powerlifting and USA Powerlifting.</p>
-                <p>Personal Best:</p>
-                <p>Squat - 375 lbs / 170.1 kg</p>
-                <p>Bench - 255 lbs / 115.7 kg</p>
-                <p>Deadlift - 460 lbs / 208.7 kg</p>
-                <p>Competition Personal Best:</p>
-                <p>Squat - 341.7 lbs / 155 kg</p>
-                <p>Bench - 237 lbs / 107.5 kg</p>
-                <p>Deadlift - 440.9 lbs / 200 kg</p>
-              </div>
-              <div class = "textblock-title">
-                <hr>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </body>
+    <head>
+        <title>Hi I'm Michael Yang</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <script src="jquery.js"></script>
+        <script src="element_object.js"></script>
+        <script src="event_response.js"></script>
+        <script></script>
+        <link rel="stylesheet" type="text/css" href="css/core.css" media="screen">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="front_page">
+            <div></div>
+            <div>
+                <div>
+                    <p id="greeting">Hi, my name is</p>
+                    <p id="full_name" style="font-size: 48pt;">Michael Yang</p>
+                    <p class="desc">Mechanical Engineer | Software Developer</p>
+                    <p class="desc">Background PC: Puerto Princesa by Michael Yang</p>
+                </div>
+                <div style="margin-top: 12px;">
+                    <a href="https://github.com/mikebyang"><img src="Icons/GHLogo.png"></a>
+                    <a href="https://www.linkedin.com/in/michael-yang718/"><img src="Icons/LILogo.png"></a>
+                    <a href="https://www.facebook.com/michael.yang.568847"><img src="Icons/FBLogo.png"></a>
+                    <a href="mailto:michael.yang718@gmail.com"><img src="Icons/ELogo.png"></a>
+                </div>
+            </div>
+            <div>
+                <a href="#about_section">
+                    <img id="darrow" src="Icons/dwn_arrow.png">
+                </a>
+            </div>
+        </section>
+        <section id="about_section" class="section">
+            <div>
+                <h5>ABOUT</h5>
+                <h2>Heres a bit about me.</h2>
+            </div>
+            <div class="container-column">
+                <div class="container-row">
+                    <img id="profile_pic" class="circle" src="ProfileImages/IMG_1008.jpg">
+                    <p>I am a class of 2020 Rutgers graduate who double majored in Mechanical Engineering and Computer Science. 
+                        My primary interests lie in artificial intelligence, data analytics, computer security, and ethical hacking. 
+                        I am an independent team player and have experience doing research as well as professional experience as an intern. 
+                        Currently, I am seeking a full-time software developing/engineering position. 
+                    </p>
+                </div>
+                <div class="container-column">
+                    <h2>Technical Skills</h2>
+                    <p>Proficient: Python, Java, C, MySQL, Matlab, HTML/CSS, JavaScript, JSP</p>
+                    <p>Familiar: Swift, Kotlin, C++, PHP, MongoDB, Golang, Ruby, R, Assembly</p>
+                    <h2>Some of the things I've worked with</h2>
+                    <p>SolidWorks, ANSYS, CUDA, ArduPilot, Mission Planner, Pixhawk, Nvidia Jetson TX1, Arduino, Raspberry PI, Navio2, LiDAR, CompactRIO, Linux, Kali Linux, Bash</p>
+                </div>
+                <div class="button">
+                    <a href="Documents/MichaelYangResume.pdf">Resume</a>
+                </div>
+            </div>
+        </section>
+        <section id="exp_section" class="section">
+            <h5>CREDENTIALS</h5>
+            <h2>This is what I've done so far.</h2>
+            <div style="display: flex; flex-flow: row; justify-content: center;">
+                <div style="width: 60%;">
+                    <h1>Experience</h1>
+                    <div >
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Webmaster</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>NJ Center for Civic Education</h3>
+                                    <h3>Sep 2017 - Dec 2019</h3>
+                                </div>
+                                <p>Maintained and updated the website as needed using knowledge of HTML and CSS. 
+                                    Troubleshot any technical issues that arose and provided possible solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>IT Intern</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Guardian Life Insurance</h3>
+                                    <h3>Jun 2019 - Aug 2019</h3>
+                                </div>
+                                <p>Reverse engineered data marts on the Guardian warehouse to determine the flow of data. 
+                                    Created documentation and diagrams to be used by the team to backtrack and view data sources.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Team Lead</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Senior Design</h3>
+                                    <h3>Sep 2018 - May 2019</h3>
+                                </div>
+                                <p>Designed custom drone using select motors and ESCs with a Raspberry Pi and Navio2 shield as the flight controller. 
+                                    Manufactured PVC pipe frame with electromagnetic lock as docking station for drone when not in use.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Research Assistant</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Rutgers University Applied Fluids Laboratory</h3>
+                                    <h3>Sep 2017 - Dec 2019</h3>
+                                </div>
+                                <p>Generated map of an indoor area using Lidar Odometry and Mapping (LOAM) algorithm in conjunction with a VLP-16 Velodyne Lidar. 
+                                    Connected lidar to a Nvidia Jetson TX1 for remote mapping using a drone. 
+                                    Helped to configure optical flow sensor on a drone for autonomous stabilization.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Research Assistant</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Mazzeo Research Group Laboratory</h3>
+                                    <h3>Jun 2017 - Aug 2017 | Feb 2018 - Mar 2018</h3>
+                                </div>
+                                <p>Helped design a paper origami grabber in conjunction with pneumatics to lift varying weights using air pressure. 
+                                    Used different origami designs and different kinds of paper in conjunction with nitinol wire or pneumatics to induce forward motion.
+                                </p>
+                                <div style="width: 100%; display: flex; flex-flow: row; justify-content: flex-end;">
+                                    <h3>Jun 2016 - Aug 2016</h3>
+                                </div>
+                                <p>Created rupturing pressure sensor made with a combination of liquid metal and paper with custon microfluidic channels. 
+                                    Designed and tested a disposable EEG sensor made of paper and conductive paste.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <h1>Extracurriculars</h1>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Badge Recipient</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>IBM Master The Mainframe 2019</h3>
+                                    <h3>Sep 2019 - Jan 2020</h3>
+                                </div>
+                                <p>Gained experience performing programming and application development tasks on the z/OS platform. 
+                                    Completed and obtained the badge for Master The Mainframe 2019 - Part 2.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Member</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Rutgers Powerlifting</h3>
+                                    <h3>Sep 2017 - Jan 2020</h3>
+                                </div>
+                                <p>Competed as a member of the team and helped to win 3 New Jersey powerlifting competitions. 
+                                    Qualified and competed in 2019 Collegiate Nationals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Webmaster</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Mechanical Engineering Student Association (MESA)</h3>
+                                    <h3>Sep 2016 - May 2019</h3>
+                                </div>
+                                <p>Maintained and updated student association website. Helped to publicize student association and plan events for students and faculty. 
+                                    Volunteered at events and helped to give tours of mechanical engineering department.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Member</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Rutgers Intramural Ultimate Frisbee</h3>
+                                    <h3>Jan 2016 - May 2016</h3>
+                                </div>
+                                <p>Played 2-3 matches a week as part of intramural team. 
+                                    Participated in a couple of games every week either before a game as a warm-up or as practice.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Member</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Rutgers Intramural Indoor Soccer</h3>
+                                    <h3>Sep 2015 - Dec 2015</h3>
+                                </div>
+                                <p>Played 2-3 matches a week as part of intramural team. 
+                                    Participated in drills and some games that as practice for intramural matches.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <h1>Education</h1>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>Bachelor Degree</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Rutgers University</h3>
+                                    <h3>Sep 2015 - Jan 2020</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="container-column">
+                        <div class="container-row">
+                            <div class="cred_date">
+                                <h3>High School Diploma</h3>
+                            </div>
+                            <div class="cred_block">
+                                <div class="exp_header">
+                                    <h3>Monmouth Regional High School</h3>
+                                    <h3>Sep 2011 - May 2015</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="hobs_section" class="section">
+            <h5>HOBBIES</h5>
+            <h2>What I like to do in my spare time.</h2>
+            <br/>
+            <div style="display: flex; flex-flow: row; justify-content: center;">
+                <div style="width:80%;">
+                    <div class="container-column">
+                        <div class="container-row">
+                            <img id="pwrlift_img" src="ProfileImages/DSC_5718.jpg">
+                            <div class="container-column" style="width: 50%; justify-content: space-evenly;">
+                                <div>
+                                    <h2>Powerlifting</h2>
+                                </div>
+                                <p style="width: 100%;">To me, powerlifting is a great way to develop discipline and perseverance. 
+                                    At the start of my powerlifting career, my numbers were 225 lbs max bench, 250 lbs max squat, and 225 lbs max deadlift. 
+                                    Since joining the Rutgers Powerlifting team in 2017, I have competed in the 2017 New Jersey Collegiate Invitational Championship, New Jersey State Championship, 2018 New Jersey Collegiate Invitational Championship, and 2019 Collegiate Nationals. 
+                                    Competition numbers and results can be seen <a href="https://usapl.liftingdatabase.com/lifters-view?id=42934">here</a>.
+                                </p>
+                                <div class="container-row">
+                                    <div>
+                                        <p>Personal best at the gym:</p>
+                                        <p>Squat - 375 lbs / 170.1 kg</p>
+                                        <p>Bench - 255 lbs / 115.7 kg</p>
+                                        <p>Deadlift - 460 lbs / 208.7 kg</p>
+                                    </div>
+                                    <div>
+                                        <p>Personal best at competitions:</p>
+                                        <p>Squat - 341.7 lbs / 155 kg</p>
+                                        <p>Bench - 237 lbs / 107.5 kg</p>
+                                        <p>Deadlift - 440.9 lbs / 200 kg</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="container-row" style="align-items: center;">
+                            <img id="photography" src="Backgrounds/artb.jpg">
+                            <div class="container-column" style="width: 50%; justify-content: space-evenly;">
+                                <div>
+                                    <h2>Photography</h2>
+                                </div>
+                                <br/>
+                                <p style="width: 100%;">This is my current favorite creative outlet. I like to capture moments the best I can. 
+                                    I consider myself an amateur photographer, but I am improving photo by photo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
